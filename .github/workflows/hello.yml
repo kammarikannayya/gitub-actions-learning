@@ -1,12 +1,12 @@
-name:Hello GitHub Actions
+name:Hello GitHUb Actions
 
 on:
-  push:
+ push:
 
 jobs:
   hello:
     runs-on:ubuntu-latest
 
     steps:
-    - name:Say Hello
-    run:echo"Hello from GItHUb Actioins
+       - name:Say Hello
+           run:"Hello from GitHUb Actions
