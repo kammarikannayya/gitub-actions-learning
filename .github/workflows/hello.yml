@@ -11,4 +11,11 @@ jobs:
 
       - name: Show Date
         run: date
+
+      - name: System Informartion
+      run: |
+      echo "Operating System:"
+      uname -a
+      echo "Current User:"
+      whoami
      
