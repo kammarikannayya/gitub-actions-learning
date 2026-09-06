@@ -18,4 +18,8 @@ jobs:
          uname -a
          echo "Current User:"
          whoami
-     
+      - name: Run Test
+        run: 
+         echo "Running test..."
+         test 10 -eq 10 
+         echo "Test Passed"
