@@ -21,5 +21,5 @@ jobs:
       - name: Run Test
         run: 
          echo "Running test..."
-         test 10 -eq 10 
+         test 10 -eq 20
          echo "Test Passed"
