@@ -19,7 +19,4 @@ jobs:
          echo "Current User:"
          whoami
       - name: Run Test
-        run: |
-         echo "Running test..."
-         exit 1
-         echo "Test Passed"
+        run: test -f README.md
